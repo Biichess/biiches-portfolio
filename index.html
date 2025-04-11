@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biiches Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Helvetica&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="preloader">
+    <img src="assets/Biiches.png" alt="Logo" />
+    <h1>Biiches</h1>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="fade-in">
+    <h1>Welcome to Biiches</h1>
+  </section>
+
+  <section id="projects" class="fade-in">
+    <h2>Projects</h2>
+    <div class="filter">
+      <button data-filter="all">All</button>
+      <button data-filter="3d">3D</button>
+      <button data-filter="design">Design</button>
+      <button data-filter="photo">Photo</button>
+    </div>
+    <div id="gallery-grid" class="gallery">
+      <div class="gallery-item"><img src="assets/1.jpg" alt="1"></div>
+      <div class="gallery-item"><img src="assets/2.jpg" alt="2"></div>
+      <div class="gallery-item"><img src="assets/3.jpg" alt="3"></div>
+    </div>
+  </section>
+
+  <section id="about" class="fade-in">
+    <h2>About</h2>
+    <p></p>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <p>Email: Biiches777@gmail.com</p>
+    <p>Instagram: <a href="https://www.instagram.com/biiches.__/" target="_blank">@biiches.__</a></p>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
